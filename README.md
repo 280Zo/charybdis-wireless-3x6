@@ -249,7 +249,7 @@ Install the anti-slip pads on to the bottom of each plate.
 
 Install the key caps, then connect each half to the computer the same way you did for the previous test. Confirm that each key still works.
 
-# Dyeing Key Caps
+# Dye theKey Caps
 
 Rit DyeMore synthetic fiber dyes are an effective way to color the white nylon key caps to any color you'd like. You'll need a few things before you get started.
 
@@ -265,9 +265,9 @@ Rit DyeMore synthetic fiber dyes are an effective way to color the white nylon k
 **Process**
 
 1. Mix the dye and water according to the color formula and dye instructions. Adjust the ratios to match the volume of your container.
-2. Heat the solution up to ~60°C/140°F. Be careful not to go above 70°C/160°F or the nylon parts might start to deform.
-3. Put the parts into the solution, and put the mesh basket on top of them. There is space underneath the basket for the keys to move freely.
-4. Submerge for five minutes, then pull one out and check the color. Most of the keys I dyed took 15-20 minutes to get to the color I wanted.
+2. Heat the solution up to 60°C/140°F. Be careful not to go above 70°C/160°F or the nylon parts might start to deform.
+3. Put the parts into the solution, and make sure they stay submerged.
+4. Wait for five minutes, then pull one out and check the color. If it's not dark enough, keep the parts in another five minutes. Most of the keys I dyed took 15-20 minutes to get to the color I wanted.
 5. While the parts are being dyed, fill a separate container with cold water.
 6. When the parts are ready, remove them from the hot solution and put them in the cold water.
 7. After the parts have cooled, dry them off
@@ -280,7 +280,7 @@ Rit DyeMore synthetic fiber dyes are an effective way to color the white nylon k
 
 # ZMK Firmware
 
-The firmware can be downloaded from my [charybdis-wireless-mini-zmk-firmware](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware) repo by opening the [Actions Workflows](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware/actions?query=is%3Acompleted+branch%3Amain), clicking on the latest successful run, then downloading the firmware file under Artifacts. There will be one for qwerty and one for colemak dh.
+The firmware can be downloaded from my [charybdis-wireless-mini-zmk-firmware](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware) repo by opening the [Actions Workflows](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware/actions?query=is%3Acompleted+branch%3Amain) and downloading the latest successful build. Follow the instructions on the repo readme for more details.
 
 Customizing the firmware is pretty straight forward. Common changes might include swapping the central and peripheral halves, changing the keyboard name, or modifying the key bindings. See the firmware repo for details on how to make changes.
 
@@ -290,7 +290,7 @@ Official ZMK support for mouse keys [is being worked on](https://github.com/zmkf
 
 ### Key Layouts
 
-Currently there are eight layers in the firmware. I've included layout images of the six most useful layers below with a few details about each. However, all layers can be viewed/modified in the [charybdis.keymap](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware/blob/main/config/charybdis.keymap) file ([qwerty version](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware/blob/layouts/qwerty/config/charybdis.keymap)).
+Currently there are eight layers in the firmware. I've included layout images of the six most useful layers below with a few details about each. However, all layers can be viewed/modified in the [charybdis.keymap](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware/blob/main/config/charybdis.keymap) file.
 
 **0 - Base (Colemak DH)**
 
